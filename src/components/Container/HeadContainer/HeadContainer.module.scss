@@ -1,0 +1,31 @@
+.head {
+  display: flex;
+  flex-direction: column;
+
+  .title {
+    display: flex;
+    align-items: flex-start;
+    font-weight: 700;
+    font-size: 34px;
+  }
+
+  .calendar {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    color: #939393;
+    margin-bottom: 24px;
+
+    .timeButton {
+      display: flex;
+      margin-right: 16px;
+      align-items: center;
+      justify-content: center;
+
+      .chevron {
+        background-size: cover;
+        margin: 0 3px;
+      }
+    }
+  }
+}

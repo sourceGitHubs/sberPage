@@ -1,0 +1,54 @@
+.header {
+  display: flex;
+  box-sizing: border-box;
+  font-weight: 400;
+  padding: 15px 20px;
+  align-items: center;
+  justify-content: space-between;
+
+  .breadcrumbs {
+    display: flex;
+    font-size: 14px;
+    color: #939393;
+
+    .slash {
+      padding: 0 8px;
+    }
+  }
+
+  .menu {
+    display: flex;
+    align-items: center;
+
+    .search {
+      display: flex;
+      margin-right: 40px;
+      align-items: center;
+
+      .image {
+        width: 24px;
+        height: 24px;
+        margin-right: 5px;
+      }
+
+      .text {
+        font-size: 16px;
+      }
+    }
+
+    .push {
+      display: flex;
+      margin-right: 32px;
+
+      .image {
+        width: 24px;
+        height: 24px;
+        margin-right: 5px;
+      }
+    }
+
+    .theme {
+      display: flex;
+    }
+  }
+}
