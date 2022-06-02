@@ -7,15 +7,15 @@ import { PieTypes } from "./types";
 const PieChartSample: FC<PieTypes> = ({ data }) => {
   return (
     <div className={styles.graph}>
-      <PieChart width={170} height={170}>
+      <PieChart width={235} height={235}>
         <Pie
           data={data}
           // cx={120}
           // cy={200}
-          cx={80}
-          cy={80}
-          innerRadius={60}
-          outerRadius={80}
+          // cx={80}
+          // cy={80}
+          innerRadius={90}
+          outerRadius={115}
           fill="#8884d8"
           paddingAngle={5}
           dataKey="value"

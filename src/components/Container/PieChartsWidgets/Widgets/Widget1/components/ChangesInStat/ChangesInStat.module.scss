@@ -1,0 +1,25 @@
+.ChangesInStat {
+  display: flex;
+
+  .array {
+    background-image: url(./../../../icons/arrow.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 15px;
+    height: 19px;
+    margin-right: 4px;
+  }
+
+  .num {
+    font-size: 14px;
+    font-weight: 600;
+    color: #85dd9b;
+    margin-right: 4px;
+  }
+
+  .type {
+    font-size: 14px;
+    color: #bbb;
+  }
+}

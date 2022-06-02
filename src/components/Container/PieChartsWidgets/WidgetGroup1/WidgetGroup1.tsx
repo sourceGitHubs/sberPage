@@ -12,9 +12,9 @@ const WidgetGroup1 = () => {
       {" "}
       <div className={styles.widgetGroup}>
         <FirstWidget />
-        <SecondWidget />
+        {/* <SecondWidget /> */}
       </div>
-      <MoreButtons />
+      {/* <MoreButtons /> */}
     </div>
   );
 };

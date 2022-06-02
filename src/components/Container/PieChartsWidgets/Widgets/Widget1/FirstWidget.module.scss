@@ -1,14 +1,45 @@
 .generalBanking {
   box-sizing: border-box;
 
-  .wrapper {
-    display: flex;
-    margin-right: 100px;
-    align-items: center;
-    justify-content: flex-start;
+  .container {
+    border-radius: 8px;
+    border: 1px solid #d9d9d9;
+    padding: 16px;
 
-    .container {
+    .wrapper {
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+
+      .chart {
+        margin-right: 40px;
+      }
+
+      .widgetsContainer {
+        display: flex;
+        flex-direction: column;
+      }
+    }
+
+    .complitedAverange {
+      display: flex;
       flex-direction: column;
+      align-items: flex-start;
+
+      .compContainer {
+        display: flex;
+        align-items: flex-end;
+
+        .compPercent {
+          font-weight: 500;
+          font-style: 12px;
+        }
+
+        .compSymbol {
+          font-size: 10px;
+          color: #bbb;
+        }
+      }
     }
   }
 }

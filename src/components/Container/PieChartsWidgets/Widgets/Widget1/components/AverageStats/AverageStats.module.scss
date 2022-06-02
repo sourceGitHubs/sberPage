@@ -1,0 +1,15 @@
+.AverageStats {
+  display: flex;
+  align-items: center;
+  margin-right: 8px;
+
+  .mean {
+    font-size: 20px;
+  }
+
+  .typeParam {
+    font-style: 12px;
+    color: #bbb;
+    align-self: flex-end;
+  }
+}

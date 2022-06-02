@@ -1,0 +1,23 @@
+.textItem {
+  font-size: 12px;
+  font-weight: 500;
+  color: #000;
+  margin-bottom: 8px;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+
+  .itemContainer {
+    display: flex;
+    justify-content: space-between;
+
+    .union {
+      display: flex;
+
+      .symbol {
+        color: #bbb;
+      }
+    }
+  }
+}

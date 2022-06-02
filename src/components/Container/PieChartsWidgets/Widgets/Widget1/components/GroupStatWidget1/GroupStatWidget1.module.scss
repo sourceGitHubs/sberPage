@@ -1,0 +1,20 @@
+.groupStat {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 40px;
+
+  .blockContainer {
+    flex-direction: column;
+    margin-right: 30px;
+
+    &:last-child {
+      margin-right: 0;
+    }
+
+    .stat {
+      display: flex;
+      align-items: center;
+      margin-bottom: 16px;
+    }
+  }
+}

@@ -8,7 +8,7 @@ import { TitleProps } from "./types";
 const Title: FC<TitleProps> = ({ title }) => {
   return (
     <div className={styles.title}>
-      <div style={{ fontSize: "20px" }}>{title}</div>
+      <div style={{ fontSize: "14px" }}>{title}</div>
       <img className={styles.info} src={infoImage} alt="info" />
     </div>
   );

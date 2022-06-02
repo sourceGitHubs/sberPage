@@ -1,0 +1,9 @@
+.blockContainer {
+  flex-direction: column;
+
+  .stat {
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+  }
+}

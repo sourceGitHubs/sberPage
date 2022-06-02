@@ -8,7 +8,7 @@ import { MetricTypes } from "./types";
 const Metrics: FC<MetricTypes> = ({
   comp,
   nocomp,
-  overdue,
+  overdue = 0,
   notsuccessfully = 0,
   percentValue,
 }) => {
@@ -19,8 +19,8 @@ const Metrics: FC<MetricTypes> = ({
           <div className={styles.green}>завершили</div>
         </div>
         <div className={styles.count}>{comp}</div>
-        <div className={styles.percent}>{percentValue.comp}%</div>
-        <Arrow direction="right" />
+        {/* <div className={styles.percent}>{percentValue.comp}%</div> */}
+        {/* <Arrow direction="right" /> */}
       </div>
 
       <div className={styles.stat}>
@@ -28,18 +28,20 @@ const Metrics: FC<MetricTypes> = ({
           <div className={styles.grey}>не завершили</div>
         </div>
         <div className={styles.count}>{nocomp}</div>
-        <div className={styles.percent}>{percentValue.nocomp}%</div>
-        <Arrow direction="right" />
+        {/* <div className={styles.percent}>{percentValue.nocomp}%</div> */}
+        {/* <Arrow direction="right" /> */}
       </div>
 
-      <div className={styles.stat}>
-        <div className={styles.name}>
-          <div className={styles.red}>просроченно</div>
+      {overdue != 0 ? (
+        <div className={styles.stat}>
+          <div className={styles.name}>
+            <div className={styles.red}>просроченно</div>
+          </div>
+          <div className={styles.count}>{overdue}</div>
+          {/* <div className={styles.percent}>{percentValue.overdue}%</div> */}
+          {/* <Arrow direction="right" /> */}
         </div>
-        <div className={styles.count}>{overdue}</div>
-        <div className={styles.percent}>{percentValue.overdue}%</div>
-        <Arrow direction="right" />
-      </div>
+      ) : null}
 
       {notsuccessfully != 0 ? (
         <div className={styles.stat}>
@@ -47,8 +49,8 @@ const Metrics: FC<MetricTypes> = ({
             <div className={styles.yellow}>завершено не успешно?</div>
           </div>
           <div className={styles.count}> {notsuccessfully}</div>
-          <div className={styles.percent}>{percentValue.notsuccessfully}%</div>
-          <Arrow direction="right" />
+          {/* <div className={styles.percent}>{percentValue.notsuccessfully}%</div> */}
+          {/* <Arrow direction="right" /> */}
         </div>
       ) : null}
     </div>
