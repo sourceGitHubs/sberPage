@@ -1,21 +1,26 @@
 import React from "react";
 
 import styles from "./HeadContainer.module.scss";
-import chevronImage from "./../../GeneralImage/chevron.svg";
+import { Arrow } from "../../../icons";
+// import iconInside from "./icons/inside.svg";
 
 const HeadContainer = () => {
   return (
     <div className={styles.head}>
-      <div className={styles.title}>обученность по обязательным программам</div>
-      <div className={styles.calendar}>
+      <div className={styles.title}>аналитика</div>
+      {/* <div className={styles.calendar}>
         <div className={styles.timeButton}>
           10 декабря
-          <img className={styles.chevron} src={chevronImage} alt="" />
+          <Arrow direction="down" />
         </div>
         <div className={styles.timeButton}>
           по неделям
-          <img className={styles.chevron} src={chevronImage} alt="" />
+          <Arrow direction="down" />
         </div>
+      </div> */}
+      <div className={styles.inside}>
+        <i className={styles.insideImage}></i>
+        <div>инсайды</div>
       </div>
     </div>
   );

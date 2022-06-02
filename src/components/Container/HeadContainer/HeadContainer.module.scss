@@ -1,6 +1,8 @@
 .head {
   display: flex;
-  flex-direction: column;
+  padding-bottom: 25px;
+  align-items: center;
+  justify-content: space-between;
 
   .title {
     display: flex;
@@ -9,23 +11,39 @@
     font-size: 34px;
   }
 
-  .calendar {
+  .inside {
     display: flex;
+    font-style: 14px;
+    color: #0066ff;
     align-items: center;
-    font-size: 16px;
-    color: #939393;
-    margin-bottom: 24px;
 
-    .timeButton {
-      display: flex;
-      margin-right: 16px;
-      align-items: center;
-      justify-content: center;
-
-      .chevron {
-        background-size: cover;
-        margin: 0 3px;
-      }
+    .insideImage {
+      background-image: url(./icons/inside.svg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      width: 24px;
+      height: 24px;
     }
   }
+
+  // .calendar {
+  //   display: flex;
+  //   align-items: center;
+  //   font-size: 16px;
+  //   color: #939393;
+  //   margin-bottom: 24px;
+
+  //   .timeButton {
+  //     display: flex;
+  //     margin-right: 16px;
+  //     align-items: center;
+  //     justify-content: center;
+
+  //     .chevron {
+  //       background-size: cover;
+  //       margin: 0 3px;
+  //     }
+  //   }
+  // }
 }

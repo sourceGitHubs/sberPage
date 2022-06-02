@@ -1,0 +1,54 @@
+.statistics {
+  display: flex;
+  flex-direction: column;
+  max-width: 230px;
+  margin-right: 35px;
+
+  .stat {
+    display: flex;
+    font-size: 14px;
+    margin-bottom: 15px;
+    align-items: center;
+    justify-content: flex-start;
+
+    .name {
+      display: flex;
+      max-width: 110px;
+      width: 100%;
+      text-align: left;
+
+      .green {
+        color: #85dd9b;
+      }
+
+      .grey {
+        color: #c7c7cc;
+      }
+
+      .red {
+        color: #ff8983;
+      }
+
+      .yellow {
+        color: #ffcd83;
+      }
+    }
+
+    .count {
+      margin-right: 8px;
+    }
+
+    .percent {
+      color: #bbb;
+      margin-right: 15px;
+    }
+
+    .chevron {
+      transform: rotate(270deg);
+      background-size: cover;
+      display: flex;
+      width: 16px;
+      height: 16px;
+    }
+  }
+}

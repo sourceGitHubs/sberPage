@@ -1,0 +1,19 @@
+.buttons {
+  display: flex;
+  align-items: center;
+  font-style: 16px;
+
+  .reveal {
+    color: black;
+    margin-right: 25px;
+
+    select {
+      font-size: 16px;
+      margin: 0 -5px;
+    }
+  }
+
+  .employees {
+    color: #0066ff;
+  }
+}

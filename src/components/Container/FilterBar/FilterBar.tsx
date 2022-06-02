@@ -20,7 +20,7 @@ const FilterBar = () => {
         </div>
       </div>
       <div className={styles.filters}>
-        <select className={styles.filter} name="blog" id="blog">
+        <select className={styles.filter} name="filter" id="filter">
           <option value="filter">фильтры</option>
           <option value="1">1</option>
           <option value="2">2</option>
