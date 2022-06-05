@@ -2,8 +2,8 @@ import React from "react";
 
 import { Arrow } from "../../../../../icons";
 
-import styles from "./FirstWidget.module.scss";
-import { percentValue01, pieData01 } from "./data/mock";
+import styles from "./CompulsoryEducationWidget.module.scss";
+import { percentValue01, PieColors01, pieData01 } from "./data/mock";
 import Metrics from "./components/Metrics";
 import Title from "./components/Title/Title";
 import PieCharts from "./components/PieChartSample/PieChartSample";
@@ -13,14 +13,14 @@ import ChangesInStat from "./components/ChangesInStat/ChangesInStat";
 import GroupStatWidget1 from "./components/GroupStatWidget1/GroupStatWidget1";
 import WidgetList from "./components/WidgetList/WidgetList";
 
-const FirstWidget = () => {
+const CompulsoryEducationWidget = () => {
   return (
     <div className={styles.generalBanking}>
       <div className={styles.container}>
         <Title title="обученность по обязательным программам" />
         <div className={styles.wrapper}>
           <div className={styles.chart}>
-            <PieCharts data={pieData01} />
+            <PieCharts data={pieData01} dataColor={PieColors01} />
           </div>
 
           <div className={styles.widgetsContainer}>
@@ -41,4 +41,4 @@ const FirstWidget = () => {
   );
 };
 
-export default FirstWidget;
+export default CompulsoryEducationWidget;

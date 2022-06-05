@@ -3,12 +3,22 @@ import array from "./../../../icons/arrow.svg";
 import styles from "./ChangesInStat.module.scss";
 import { ChangesTypes } from "./types";
 
-const ChangesInStat: FC<ChangesTypes> = ({ num, type }) => {
+const ChangesInStat: FC<ChangesTypes> = ({
+  num,
+  type,
+  styleArray,
+  styleNum,
+  styleType,
+}) => {
   return (
     <div className={styles.ChangesInStat}>
-      <i className={styles.array}></i>
-      <div className={styles.num}>{num}</div>
-      <div className={styles.type}>{type}</div>
+      <i style={styleArray} className={styles.array}></i>
+      <div style={styleNum} className={styles.num}>
+        {num}
+      </div>
+      <div style={styleType} className={styles.type}>
+        {type}
+      </div>
     </div>
   );
 };

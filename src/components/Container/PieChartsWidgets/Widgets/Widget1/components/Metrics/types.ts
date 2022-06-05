@@ -3,5 +3,5 @@ export interface MetricTypes {
   nocomp: number;
   overdue?: number;
   notsuccessfully?: number;
-  percentValue: any;
+  percentValue?: any;
 }

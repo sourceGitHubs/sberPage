@@ -12,7 +12,7 @@ const FilterBar = () => {
         <button className={styles.tab}>сберджайл</button>
         <div className={styles.cellbutton}>
           <select className={styles.blog} name="blog" id="blog">
-            <option value="HR">Блог HR</option>
+            <option value="HR">Управление развития и карьеры</option>
             <option value="1">1</option>
             <option value="2">2</option>
             <option value="3">3</option>

@@ -10,9 +10,9 @@ const Header = () => {
   return (
     <div className={styles.header}>
       <div className={styles.breadcrumbs}>
-        <div>аналитика</div>
-        <div className={styles.slash}>/</div>
-        <div>обученность</div>
+        <div></div>
+        <div className={styles.slash}></div>
+        <div></div>
       </div>
 
       <div className={styles.menu}>

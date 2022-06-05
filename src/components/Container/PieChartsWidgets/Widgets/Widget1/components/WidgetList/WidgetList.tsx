@@ -6,7 +6,7 @@ import styles from "./WidgetList.module.scss";
 const WidgetList = () => {
   return (
     <div className={styles.WidgetList}>
-      <StatTitle title="самые отстающие" />
+      <StatTitle fontSize="12px" title="самые отстающие" />
       <div className={styles.container}>
         <ListItem text="Дивизион 'HR платформа'" percent={32} symbol="%" />
         <ListItem

@@ -12,8 +12,16 @@
     display: flex;
     justify-content: space-between;
 
+    .text {
+      margin-right: 5px;
+    }
+
     .union {
       display: flex;
+
+      .percent {
+        margin-right: 2px;
+      }
 
       .symbol {
         color: #bbb;

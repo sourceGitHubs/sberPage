@@ -1,5 +1,5 @@
 export interface ListTypes {
   text: string;
-  percent: number;
+  percent: number | string;
   symbol: string;
 }

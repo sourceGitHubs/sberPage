@@ -1,0 +1,48 @@
+.generalBanking {
+  display: flex;
+  box-sizing: border-box;
+
+  .container {
+    border-radius: 8px;
+    border: 1px solid #d9d9d9;
+    padding: 16px;
+
+    .wrapper {
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      //   margin-bottom: 15px;
+
+      .chart {
+        margin-right: 20px;
+      }
+
+      .widgetsContainer {
+        display: flex;
+        flex-direction: column;
+      }
+    }
+
+    .conclusion {
+      font-size: 12px;
+      text-align: left;
+      margin-bottom: 12px;
+
+      .percent {
+        font-weight: 600;
+        color: #68b1ff;
+      }
+
+      .conContainer {
+        display: flex;
+        flex-direction: column;
+
+        .text {
+          max-width: 270px;
+          font-weight: 400;
+          color: #939393;
+        }
+      }
+    }
+  }
+}

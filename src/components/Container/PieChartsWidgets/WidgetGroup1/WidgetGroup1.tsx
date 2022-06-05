@@ -1,8 +1,8 @@
 import React from "react";
-import MoreButtons from "../MoreButtons/MoreButtons";
+import MoreButtons from "../../../../util/MoreButtons/MoreButtons";
 
-import FirstWidget from "../Widgets/Widget1/FirstWidget";
-import SecondWidget from "../Widgets/Widget2/SecondWidget";
+import CompulsoryEducationWidget from "../Widgets/Widget1/CompulsoryEducationWidget";
+import EducationBudgetWidget from "../Widgets/Widget2/EducationBudgetWidget";
 
 import styles from "./WidgetGroup1.module.scss";
 
@@ -11,8 +11,13 @@ const WidgetGroup1 = () => {
     <div className={styles.widgetContainer}>
       {" "}
       <div className={styles.widgetGroup}>
-        <FirstWidget />
-        {/* <SecondWidget /> */}
+        <div className={styles.widgetOne}>
+          <CompulsoryEducationWidget />
+        </div>
+
+        <div className={styles.widgetTwo}>
+          <EducationBudgetWidget />
+        </div>
       </div>
       {/* <MoreButtons /> */}
     </div>
