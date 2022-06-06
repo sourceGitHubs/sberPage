@@ -15,6 +15,7 @@ import GroupStatWidget1 from "../Widget1/components/GroupStatWidget1/GroupStatWi
 import StatTitle from "../Widget1/components/Stat/StatTitle/StatTitle";
 import MetricsWidget from "./components/MetricsWidget/MetricsWidget";
 import WidgetList2 from "./components/WidgetList2/WidgetList2";
+import InsideContent from "../Widget1/components/InsideContent/InsideContent";
 
 const EducationBudgetWidget = () => {
   return (

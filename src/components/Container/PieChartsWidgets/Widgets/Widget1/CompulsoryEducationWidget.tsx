@@ -12,6 +12,7 @@ import AverageStats from "./components/AverageStats/AverageStats";
 import ChangesInStat from "./components/ChangesInStat/ChangesInStat";
 import GroupStatWidget1 from "./components/GroupStatWidget1/GroupStatWidget1";
 import WidgetList from "./components/WidgetList/WidgetList";
+import InsideContent from "./components/InsideContent/InsideContent";
 
 const CompulsoryEducationWidget = () => {
   return (
@@ -21,6 +22,7 @@ const CompulsoryEducationWidget = () => {
         <div className={styles.wrapper}>
           <div className={styles.chart}>
             <PieCharts data={pieData01} dataColor={PieColors01} />
+            {/* <InsideContent /> */}
           </div>
 
           <div className={styles.widgetsContainer}>

@@ -24,14 +24,30 @@
     // }
   }
 
-  .line {
-    color: #68b1ff33;
-    background-color: #68b1ff33;
-    height: 16px;
-    margin-right: 8px;
+  .LineContainer {
+    display: flex;
 
-    hr {
-      border: 0;
+    .line {
+      color: #68b1ff33;
+      background-color: #68b1ff33;
+      height: 16px;
+
+      hr {
+        border: 0;
+      }
+    }
+
+    .endLine {
+      color: #68b1ff;
+      background-color: #68b1ff;
+      height: 16px;
+      width: 3px;
+      margin-right: 8px;
+      border-radius: 3px;
+
+      hr {
+        border: 0;
+      }
     }
   }
 

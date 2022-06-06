@@ -12,7 +12,43 @@
       justify-content: flex-start;
 
       .chart {
+        position: relative;
         margin-right: 40px;
+
+        // .insideContent {
+        //   position: absolute;
+        //   bottom: 00;
+        //   top: 100px;
+        //   right: 0;
+        //   left: 0;
+
+        //   .text {
+        //     position: absolute;
+        //     color: #939393;
+        //     // margin-bottom: 13px;
+        //     top: -30px;
+        //     right: 0;
+        //     left: 0;
+        //     bottom: 0;
+        //   }
+
+        //   .percent {
+        //     position: absolute;
+        //     left: 95px;
+        //     right: 0px;
+        //     bottom: 0;
+        //     top: -10px;
+        //     // color: #000;
+        //   }
+
+        //   .changes {
+        //     position: absolute;
+        //     left: 80px;
+        //     right: 0;
+        //     bottom: 0;
+        //     top: 35px;
+        //   }
+        // }
       }
 
       .widgetsContainer {

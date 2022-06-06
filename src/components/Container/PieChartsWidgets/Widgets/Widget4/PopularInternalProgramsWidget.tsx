@@ -8,7 +8,7 @@ const PopularInternalProgramsWidget = () => {
     <div className={styles.generalBanking}>
       <div className={styles.container}>
         <Title
-          styleTitle={{ marginBottom: "15px", paddingRight: "8px" }}
+          styleTitle={{ marginBottom: "15px", paddingRight: "6px" }}
           title="популярные внутренние программы"
         />
         <div className={styles.wrapper}>
@@ -17,7 +17,7 @@ const PopularInternalProgramsWidget = () => {
               title="Цифровые навыки"
               percent={46}
               symbol="%"
-              lineWidth={{ width: "140px" }}
+              lineWidth={{ width: "130px" }}
             />
 
             <LineItem

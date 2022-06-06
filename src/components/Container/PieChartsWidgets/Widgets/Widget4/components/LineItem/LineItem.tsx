@@ -8,9 +8,15 @@ const LineItem: FC<LineItemTypes> = ({ title, lineWidth, percent, symbol }) => {
       <div style={{ fontSize: "12px" }} className={styles.text}>
         {title}
       </div>
-      <div style={lineWidth} className={styles.line}>
-        <hr />
+      <div className={styles.LineContainer}>
+        <div style={lineWidth} className={styles.line}>
+          <hr />
+        </div>
+        <div className={styles.endLine}>
+          <hr />
+        </div>
       </div>
+
       <div className={styles.LineItemContainer}>
         <div style={{ fontSize: "12px" }} className={styles.percent}>
           {percent}
